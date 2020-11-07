@@ -31,3 +31,8 @@ body {
     height: 1500px;
     /* Used in this example to enable scrolling */
 }
+
+img {
+    height: 70px;
+    width: 120px;
+}
