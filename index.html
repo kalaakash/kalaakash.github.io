@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css" />
+        <script src="./style.js" defer></script>
+    </head>
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./style.css">
-</head>
+    <body>
+        <div class="navbar">
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./contact.html">Contact</a>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">
+                    Drugs
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="#">Drug 1</a>
+                    <a href="#">Drug 2</a>
+                    <a href="#">Drug 3</a>
+                    <a href="#">Drug 4</a>
+                    <a href="#">Drug 5</a>
+                    <a href="#">Drug 6</a>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="./logo.png" alt="Drug Sense">
+            </div>
+        </div>
 
-<body>
+        <div class="main">
+            <h1>Home</h1>
+            <h2>We are a society which doesn't do drugs</h2>
 
-    <div class="navbar">
-        <a href="./index.html">Home</a>
-        <a href="./about.html">About</a>
-        <a href="./contact.html">Contact</a>
-        <img src="./logo.png" alt="Drug Sense">
-    </div>
-
-    <div class="main">
-        <h1>Home</h1>
-        <h2>We are a society which doesn't do drugs</h2>
-        
-        <p>Weird stuff innit</p>
-    </div>
-
-</body>
-
+            <p>Weird stuff innit</p>
+        </div>
+    </body>
 </html>
