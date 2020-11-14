@@ -101,28 +101,30 @@ body {
 }
 
 .main {
+    background-color: rgba(25,25,30,0.88);
+    color: aliceblue;
     padding: 40px;
-    margin-top: 30px;
+    margin-top: 2px;
     height: 1500px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .main h1{
     font-family: inherit;
-    font-size: 25px;;
+    font-size: 45px;;
 }
 
 .main h3{
     font-family: inherit;
-    font-size: 16px;
+    font-size: 27px;
 }
 
 .main p{
     font-family: inherit;
-    font-size: 15px;
+    font-size: 22px;
 }
 
 .contact {
-    font-size: 14px;
+    font-size: 19px;
     font-family: inherit;
 } 
 
