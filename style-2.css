@@ -1,12 +1,11 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 100px 300px;
   }
   
   .logo {
-    float: left;
-    width: 120px;
-    height: 80px;
+    width: 360px;
+    height: 240px;
   }
   /* ~~ Top Navigation Bar ~~ */
   
@@ -21,7 +20,6 @@ body {
 }
   
   .navigation-bar {
-    background-color: #352d2f;
     height: 70px;
     width: 110%;
   }
@@ -37,9 +35,8 @@ body {
     border: none;
     outline: none;
     color: black;
-    padding: 26px 20px;
-    background-color: white;
     font-family: inherit;
+    border-radius: 15px;
 }
   
 .dropdown-content {
@@ -127,4 +124,11 @@ body {
 .main .leaflet {
   height: 700px;
   width: 900px;
+}
+
+#hamburger {
+    width: 90px;
+    height: 70px;
+    background-color: #352d2d2d;
+    border-radius: 15px;
 }
